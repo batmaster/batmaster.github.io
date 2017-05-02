@@ -97,6 +97,12 @@ http://stackoverflow.com/questions/27129268/udp-hole-punching-java-example
 
 
 
+# AngularJS
+[angular-dashboard-framework](https://github.com/angular-dashboard-framework/)
+## jQuery
+[jq datatable](https://datatables.net)
+[jq datatable button (extension)](https://datatables.net/extensions/buttons/)
+
 
 
 
