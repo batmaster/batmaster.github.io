@@ -132,7 +132,7 @@ http://www.sysnetcenter.com/board/index.php?topic=2455.0
 
 
 # SSL
-https://github.com/certbot/certbot
+[Github](https://github.com/certbot/certbot)
 
 ./certbot-auto --apache -d example.com -d www.example.com -d other.example.net
 
@@ -140,7 +140,7 @@ https://github.com/certbot/certbot
 'sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT'
 
 ## Set Key location
-https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+[](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
 
 `sudo a2enmod ssl`
 
@@ -153,8 +153,10 @@ Activate SSL Virtual Host
 `sudo a2ensite default-ssl.conf`
 
 # Email (Postfix – Dovecot - Squirrelmail)
-See this: http://www.krizna.com/ubuntu/setup-mail-server-ubuntu-14-04/#postfix
-### Note in Step 15, don't forget to locate key and cur and see more on: https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/
+See this: [http://www.krizna.com/ubuntu/setup-mail-server-ubuntu-14-04/#postfix]
+### Note in Step 15, don't forget to locate key and cur
+and see more on:
+[https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/]
 
 
 
