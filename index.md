@@ -153,7 +153,7 @@ Activate SSL Virtual Host
 `sudo a2ensite default-ssl.conf`
 
 Redirect http to https
-[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
+!()[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
 `RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTPHOST}%{REQUESTURI}`
