@@ -124,3 +124,37 @@ http://www.wifi4you.com/Amp/%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%
 
 ## Web Proxy (มีสอนโค้ด 55)
 http://www.sysnetcenter.com/board/index.php?topic=2455.0
+
+
+
+
+
+
+
+# SSL
+https://github.com/certbot/certbot
+
+./certbot-auto --apache -d example.com -d www.example.com -d other.example.net
+
+### NOTE if cannot call use this
+'sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT'
+
+## Set Key location
+https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04
+
+`sudo a2enmod ssl`
+
+`sudo service apache2 restart`
+
+And edit
+`sudo nano /etc/apache2/sites-available/default-ssl.conf`
+
+Activate SSL Virtual Host
+`sudo a2ensite default-ssl.conf`
+
+# Email (Postfix – Dovecot - Squirrelmail)
+See this: http://www.krizna.com/ubuntu/setup-mail-server-ubuntu-14-04/#postfix
+### Note in Step 15, don't forget to locate key and cur and see more on: https://www.tecmint.com/setup-postfix-mail-server-in-ubuntu-debian/
+
+
+
