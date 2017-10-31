@@ -134,10 +134,10 @@ http://www.sysnetcenter.com/board/index.php?topic=2455.0
 # SSL
 [Github](https://github.com/certbot/certbot)
 
-./certbot-auto --apache -d example.com -d www.example.com -d other.example.net
+`./certbot-auto --apache -d example.com -d www.example.com -d other.example.net`
 
 ### NOTE if cannot call use this
-'sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT'
+`sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT`
 
 ## Set Key location
 [](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
