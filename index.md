@@ -152,6 +152,12 @@ And edit
 Activate SSL Virtual Host
 `sudo a2ensite default-ssl.conf`
 
+Redirect http to https
+[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
+`RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTPHOST}%{REQUESTURI}`
+
 # Email (Postfix – Dovecot - Squirrelmail)
 See this: [http://www.krizna.com/ubuntu/setup-mail-server-ubuntu-14-04/#postfix]
 ### Note in Step 15, don't forget to locate key and cur
