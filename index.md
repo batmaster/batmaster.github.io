@@ -168,3 +168,24 @@ and see more on:
 
 
 
+
+
+# Owncloud
+(Official Installation)[https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html]
+See more:
+
+Just download .zip,  unzip,  and run!!
+
+https://devops.profitbricks.com/tutorials/install-and-configure-owncloud-on-ubuntu-1604/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-owncloud-on-ubuntu-16-04
+
+
+### Note: permission issue see this https://askubuntu.com/questions/244406/how-do-i-give-www-data-user-to-a-folder-in-my-home-folder
+
+`usermod -a -G www-data (your username)`
+
+`chgrp www-data /home/myuser/folderA`
+
+`chmod g+rwxs /home/myuser/folderA`
+
