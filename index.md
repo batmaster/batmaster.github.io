@@ -134,7 +134,7 @@ http://www.sysnetcenter.com/board/index.php?topic=2455.0
 # SSL
 [Github](https://github.com/certbot/certbot)
 
-`./certbot-auto --apache -d example.com -d www.example.com -d other.example.net`
+`./certbot-auto certonly --manual -d example.com -d www.example.com -d other.example.net`
 
 
 ## Set Key location
