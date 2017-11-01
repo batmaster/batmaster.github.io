@@ -136,8 +136,6 @@ http://www.sysnetcenter.com/board/index.php?topic=2455.0
 
 `./certbot-auto --apache -d example.com -d www.example.com -d other.example.net`
 
-### NOTE if cannot call use this
-`sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT`
 
 ## Set Key location
 [](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
@@ -151,6 +149,10 @@ And edit
 
 Activate SSL Virtual Host
 `sudo a2ensite default-ssl.conf`
+
+Cron auto renew
+!()[https://www.vultr.com/docs/setup-lets-encrypt-with-apache-on-ubuntu-16-04]
+
 
 Redirect http to https
 !()[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
