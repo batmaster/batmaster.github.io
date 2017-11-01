@@ -172,9 +172,10 @@ and see more on:
 
 # Owncloud
 (Official Installation)[https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html]
-See more:
 
 Just download .zip,  unzip,  and run!!
+
+See more:
 
 https://devops.profitbricks.com/tutorials/install-and-configure-owncloud-on-ubuntu-1604/
 
