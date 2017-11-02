@@ -160,6 +160,12 @@ Redirect http to https
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTPHOST}%{REQUESTURI}`
 
+
+คีย์จะอยู่ใน
+
+`/etc/letsencrypt/live`
+
+
 # Email (Postfix – Dovecot - Squirrelmail)
 See this: [http://www.krizna.com/ubuntu/setup-mail-server-ubuntu-14-04/#postfix]
 ### Note in Step 15, don't forget to locate key and cur
