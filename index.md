@@ -137,6 +137,8 @@ http://www.sysnetcenter.com/board/index.php?topic=2455.0
 `./certbot-auto certonly --manual -d example.com -d www.example.com -d other.example.net`
 
 
+### Note: https://certbot.eff.org/docs/using.html#manual  if encounter Timeout problem
+
 ## Set Key location
 [](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
 
