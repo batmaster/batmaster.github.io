@@ -198,3 +198,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ow
 
 `chmod g+rwxs /home/myuser/folderA`
 
+
+
+# Ubuntu Desktop install Teamviewer
+
+https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
+
+
