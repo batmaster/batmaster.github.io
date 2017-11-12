@@ -205,3 +205,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ow
 https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
 
 
+# Install .deb
+
+https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
