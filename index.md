@@ -212,7 +212,9 @@ https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
 
 # Load Balance Apache2
 <code>
-<VirtualHost *:80>
+  
+  <VirtualHost *:80>
+  
         ProxyRequests off
 
         ServerName domain.com
@@ -260,5 +262,6 @@ https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
         ProxyPass /balancer-manager !
         ProxyPass / balancer://mycluster/
 
-</VirtualHost>
+  </VirtualHost>
+  
 </code>
