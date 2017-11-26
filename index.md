@@ -266,3 +266,11 @@ https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
   
   
 </code>
+
+
+
+# Change Hostname
+
+<code>vi /etc/hostname</code>
+
+<code>vi /etc/hosts</code>
