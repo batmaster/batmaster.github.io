@@ -153,14 +153,18 @@ Activate SSL Virtual Host
 `sudo a2ensite default-ssl.conf`
 
 Cron auto renew
-!()[https://www.vultr.com/docs/setup-lets-encrypt-with-apache-on-ubuntu-16-04]
+[https://www.vultr.com/docs/setup-lets-encrypt-with-apache-on-ubuntu-16-04]
 
 
 Redirect http to https
-!()[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
+[https://www.digitalocean.com/community/questions/redirect-from-http-to-https]
+
+`sudo a2enmod rewrite`
+
 `RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTPHOST}%{REQUESTURI}`
+
 
 
 คีย์จะอยู่ใน
