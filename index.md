@@ -274,3 +274,15 @@ https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
 <code>vi /etc/hostname</code>
 
 <code>vi /etc/hosts</code>
+
+# Apache change port
+
+/etc/apache2/ports.conf
+
+<code>Listen 8079</code>
+
+/etc/apache2/sites-enabled/000-default.conf
+
+<code><VirtualHost *: 8079></code>
+  
+<code>sudo service apache2 restart</code>
