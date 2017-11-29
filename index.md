@@ -301,3 +301,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu
 <code><VirtualHost *: 8079></code>
   
 <code>sudo service apache2 restart</code>
+
+
+# Open port Firewall
+
+`sudo iptables -A INPUT -p tcp --dport 3306 -j ACCEPT`
