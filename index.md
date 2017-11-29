@@ -161,15 +161,15 @@ Redirect http to https
 
 `sudo a2enmod rewrite`
 
-`RewriteEngine On
+`
+RewriteEngine On
 
 RewriteCond %{HTTPS} off
 
 RewriteRule (.*) https://%{HTTPHOST}%{REQUESTURI}
-
 `
 
-Auto renew
+###Auto renew
 
 `./certbot-auto renew`
 
