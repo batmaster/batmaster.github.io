@@ -306,3 +306,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu
 # Open port Firewall
 
 `sudo iptables -A INPUT -p tcp --dport 3306 -j ACCEPT`
+
+
+
+## link phpmyadmin
+
+`sudo ln -s /usr/share/phpmyadmin /var/www/`
+
