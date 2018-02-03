@@ -318,3 +318,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu
 
 https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04
 
+
+## NVM
+
+https://askubuntu.com/questions/672994/how-to-install-nodejs-4-using-apt
+
