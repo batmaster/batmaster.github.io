@@ -311,7 +311,15 @@ https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu
 
 ## link phpmyadmin
 
-`sudo ln -s /usr/share/phpmyadmin /var/www/`
+`sudo ln -s /usr/share/phpmyadmin /var/www/html`
+
+หรือ
+
+`sudo nano /etc/apache2/apache2.conf`
+
+และเพิ่ม
+
+`Include /etc/phpmyadmin/apache.conf`
 
 
 ### How To Add Swap Space on Ubuntu 16.04
