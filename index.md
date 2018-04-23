@@ -336,7 +336,8 @@ https://askubuntu.com/questions/672994/how-to-install-nodejs-4-using-apt
 ## SuperVisor
 https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps
 
-`
+
+```
 [program:email-queue]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/laravel-example/artisan queue:work redis --queue=emailqueue --sleep=3 --tries=3
@@ -346,5 +347,5 @@ user=forge
 numprocs=2
 redirect_stderr=true
 stdout_logfile=/var/www/laravel-example//storage/logs/supervisord.log
-`
+```
 
