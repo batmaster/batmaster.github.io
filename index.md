@@ -353,8 +353,13 @@ stdout_logfile=/var/www/laravel-example//storage/logs/supervisord.log
 https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-14-04
 
 `sudo ufw allow from 15.15.15.51 to any port 22`
-
 `sudo ufw status numbered`
-
 `sudo ufw delete 2`
+
+## Kill process using port
+`netstat -vanp tcp | grep 3000`
+หรือ ใน MAC
+`sudo lsof -i tcp:3000`
+
+`kill -9 1123`
 
