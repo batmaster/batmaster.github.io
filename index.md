@@ -363,3 +363,14 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-u
 
 `kill -9 1123`
 
+
+## Multiple lan card ubuntu
+
+Get the new interface name using `ifconfig -a`
+open `/etc/network/interfaces` and add
+```
+# The secondary network interface
+auto enp0s8
+iface enp0s8 inet dhcp
+```
+`sudo service networking restart`
