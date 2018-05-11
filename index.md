@@ -366,6 +366,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-u
 
 ## Multiple lan card ubuntu
 https://askubuntu.com/questions/778392/install-second-network-interface-on-virtualized-ubuntu-server
+
 Get the new interface name using `ifconfig -a`
 
 open `/etc/network/interfaces` and add
