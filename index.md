@@ -383,7 +383,7 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubunt
 
 ### ERROR 2003 (HY000): Can't connect to MySQL server on xxx
 
-1. run the command `nano /etc/mysql/my.cnf`
+1. run the command `nano /etc/mysql/my.cnf` or in `/etc/mysql/mysql.conf.d/mysqld.cnf`
 
 2. comment `bind-address = 127.0.0.1` using the # symbol
 
