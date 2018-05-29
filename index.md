@@ -379,3 +379,12 @@ iface enp0s8 inet dhcp
 
 ## RSA
 https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604
+
+
+### ERROR 2003 (HY000): Can't connect to MySQL server on xxx
+
+1. run the command `nano /etc/mysql/my.cnf`
+
+2. comment `bind-address = 127.0.0.1` using the # symbol
+
+3. `sudo service mysql restart`
