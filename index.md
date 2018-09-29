@@ -283,6 +283,11 @@ https://www.linuxbabe.com/ubuntu/install-teamviewer-12-ubuntu-16-04-ubuntu-16-10
 https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-16-04
 
 
+Failed to save SSL options : The SSL certificate file .../key.pem does not exist or does not contain a PEM format certificate
+
+```sudo apt-get install libnet-ssleay-perl libio-socket-ssl-perl```
+
+
 
 # Change Hostname
 
