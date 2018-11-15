@@ -393,3 +393,36 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubunt
 2. comment `bind-address = 127.0.0.1` using the # symbol
 
 3. `sudo service mysql restart`
+
+
+## nginx
+
+```
+sudo apt-get update
+sudo apt-get install nginx
+sudo apt-get install php7.2-cli php7.2-fpm php7.2-curl php7.2-gd php7.2-mysql php7.2-mbstring zip unzip
+```
+
+config `/etc/nginx/nginx.conf`
+
+test config `sudo nginx -t`
+
+log `/var/log/nginx/error.log`
+
+direcotry `/var/www/html`
+
+php setting `sudo nano /etc/nginx/sites-enabled/default`
+```
+server {
+        ...
+        location ~ \.php$ {
+                include snippets/fastcgi-php.conf;
+                fastcgi_pass unix:/run/php/php7.2-fpm.sock;
+        }
+
+        location ~ /\.ht {
+                deny all;
+        }
+}
+```
+
